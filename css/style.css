@@ -1,0 +1,40 @@
+/* "Quicksand" and "Raleway" font imported from fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global Styles - Reset and Base Styles */
+* {
+    padding: 0;
+    margin 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "Raleway", serif;
+    font-family: "Quicksand", serif;
+}
+
+img {
+    display: flex;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/* Shared styles start from here */
+.container {
+    max-width: 1160px;
+    margin-inline: auto;
+    width: 80%;
+}
+/* Shared styles end here */
