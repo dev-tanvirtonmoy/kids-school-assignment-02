@@ -47,10 +47,39 @@
     line-height: 180%;
     border-radius: 8px;
   }
-  header #banner .container figure img{
+  header #banner .container figure img {
     width: 100%;
   }
   /* Banner section responsive end here */
+
+  /* Standard Curriculum part responsive start from here */
+  main #curriculum {
+    padding: 40px 0;
+  }
+  main #curriculum .container .section-title {
+    font-size: 1.625rem;
+  }
+  main #curriculum .container .curriculum-card-container {
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 14px;
+  }
+  main .curriculum-card-container .curriculum-card {
+    padding: 36px 20px;
+    border-radius: 12px;
+  }
+  main .curriculum-card-container .curriculum-card .card-title {
+    font-size: 16px;
+    margin-top: 22px;
+  }
+  main .curriculum-card-container .curriculum-card p {
+    font-size: 0.625rem;
+    margin-top: 22px;
+  }
+  #curriculum .container .scroll-buttons{
+    display: none;
+  }
+  /* Standard Curriculum part responsive end here */
 }
 
 /* Mobile view part responsive end here */

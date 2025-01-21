@@ -12,7 +12,6 @@ body,
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  font-family: "Raleway", serif;
   font-family: "Quicksand", serif;
 }
 
@@ -124,19 +123,111 @@ nav .hamburger-menu {
   line-height: 100%;
 }
 .banner-con .banner-title span:first-child {
-    color: var(--orange);
+  color: var(--orange);
 }
 .banner-con .banner-title span:last-child {
-    color: var(--sky-blue);
+  color: var(--sky-blue);
 }
 .banner-con p {
-    margin: 24px 0;
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: var(--black);
+  margin: 24px 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--black);
 }
 .banner-con .btn-primary {
-    color: var(--white);
-    background: var(--black);
+  color: var(--white);
+  background: var(--black);
 }
 /* Banner section styles end here */
+
+/* Standard Curriculum section styles start from here */
+#curriculum {
+  background: url(https://i.ibb.co.com/qJn18vk/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0;
+  text-align: center;
+}
+#curriculum .container .section-title {
+  color: var(--black);
+  font-size: 2.875rem;
+  font-weight: 700;
+  line-height: 125%;
+}
+.curriculum-card-container {
+  display: flex;
+  gap: 28px;
+  margin: 80px 0;
+}
+.curriculum-card-container .curriculum-card {
+  padding: 50px 40px;
+  border-radius: 18.864px;
+  border: 0.9px solid #def5ff;
+  background: linear-gradient(180deg, #def5ff 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+  box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+  flex: 1;
+}
+.curriculum-card-container .curriculum-card figure img {
+  margin: 0 auto;
+  
+}
+.curriculum-card .curriculum-card-con .card-title {
+  color: #202020;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 125%;
+  margin-top: 32px;
+}
+.curriculum-card .curriculum-card-con p {
+  font-family: "Raleway", serif;
+  color: #808080;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 180%;
+  margin: 32px 0;
+}
+.curriculum-card .curriculum-card-con a {
+  color: #64c8ff;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 180%;
+  text-transform: capitalize;
+}
+.curriculum-card:nth-child(2) {
+  background: linear-gradient(180deg, #fff4dc 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+}
+.curriculum-card:nth-child(2) a {
+  color: #f0aa00;
+}
+
+.curriculum-card:nth-child(3) {
+  background: linear-gradient(180deg, #eee1ff 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+}
+.curriculum-card:nth-child(3) a {
+  color: #8700ff;
+}
+#curriculum .container .scroll-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-inline: auto;
+}
+#curriculum .container .scroll-buttons div {
+  width: 60px;
+  height: 60px;
+  background: var(--orange);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#curriculum .container .scroll-buttons div a i {
+  display: block;
+  font-size: 24px;
+  color: var(--white);
+}
+/* Standard Curriculum section styles end here */
