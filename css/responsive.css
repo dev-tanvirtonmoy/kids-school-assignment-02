@@ -1,23 +1,56 @@
 /* Mobile view part responsive start from here */
 
 @media only screen and (max-width: 576px) {
+  /* Navbar start from here */
+  header nav {
+    border-bottom: 0.5px solid var(--orange);
+    /* padding: 12px 0; */
+  }
+  header nav .container {
+    padding: 12px 0;
+  }
+  header nav .logo span {
+    display: none;
+  }
+  header > nav > .container > .nav-links,
+  .btn-primary {
+    display: none;
+  }
+  header nav .hamburger-menu {
+    display: block;
+    font-size: 24px;
+  }
+  /* Navbar end here */
 
-    /* Navbar start from here */
-    header nav {
-        border-bottom: 0.5px solid var(--orange);
-        
-    }
-    header nav .logo span {
-        display: none;
-    }
-    header nav .nav-links, .btn-primary {
-        display: none;
-    }
-    header nav .hamburger-menu {
-        display: block;
-        font-size: 24px;
-    }
-    /* Navbar end here */
+  /* Banner section responsive start from here */
+  header #banner .container {
+    flex-direction: column-reverse;
+  }
+  header #banner .container .banner-con {
+    padding: 20px 0;
+  }
+  header #banner .container .banner-con .banner-title {
+    font-size: 32px;
+    text-align: center;
+  }
+  header #banner .container .banner-con p {
+    font-size: 0.875rem;
+    text-align: center;
+    font-weight: 500;
+    margin: 18px 0;
+  }
+  header #banner .container .banner-con button {
+    display: block;
+    margin: 0 auto;
+    padding: 6px 24px;
+    font-size: 1rem;
+    line-height: 180%;
+    border-radius: 8px;
+  }
+  header #banner .container figure img{
+    width: 100%;
+  }
+  /* Banner section responsive end here */
 }
 
 /* Mobile view part responsive end here */

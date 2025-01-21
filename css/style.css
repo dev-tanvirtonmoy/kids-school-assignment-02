@@ -1,112 +1,142 @@
 /* "Quicksand" and "Raleway" font imported from fonts.google.com */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Global Styles - Reset and Base Styles */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body,
 html {
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    font-family: "Raleway", serif;
-    font-family: "Quicksand", serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Raleway", serif;
+  font-family: "Quicksand", serif;
 }
 
 img {
-    display: flex;
+  display: flex;
 }
 
 ol,
 ul,
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a,
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Shared styles start from here */
 .container {
-    max-width: 1160px;
-    margin: 0 auto;
-    width: 80%;
+  max-width: 1160px;
+  margin: 0 auto;
+  width: 80%;
 }
 
 :root {
-    --black: #111;
-    --orange: #FEA301;
-    --sky-blue: #01ACFD;
-    --white: #fff;
+  --black: #111;
+  --orange: #fea301;
+  --sky-blue: #01acfd;
+  --white: #fff;
 }
 
 .btn-primary {
-    padding: 16px 60px;
-    border-radius: 12px;
-    background: var(--orange);
-    color: var(--white);
-    font-size: 1.25rem;
-    font-weight: 600;
-    line-height: 150%;
-    text-transform: capitalize;
-    cursor: pointer;
-    border: none;
+  padding: 16px 36px;
+  border-radius: 12px;
+  background: var(--orange);
+  color: var(--white);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 150%;
+  text-transform: capitalize;
+  cursor: pointer;
+  border: none;
 }
 
 /* Shared styles end here */
 
 /* Header section styles start from here */
-header {}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    background: #fff;
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background: #fff;
 }
 
 nav .logo {
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
-    color: var(--black);
-    font-weight: 700;
-    text-transform: uppercase;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: var(--black);
+  font-weight: 700;
+  text-transform: uppercase;
+  gap: 10px;
 }
 
 nav .nav-links {
-    display: flex;
-    gap: 32px;
+  display: flex;
+  gap: 32px;
 }
 
 nav .nav-links li a {
-    display: block;
-    color: var(--orange);
-    font-size: 1.25rem;
-    font-weight: 700;
-    line-height: 15%;
-    text-transform: capitalize;
+  display: block;
+  color: var(--orange);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 15%;
+  text-transform: capitalize;
 }
 
 nav .nav-links li:nth-child(2) a {
-    color: var(--sky-blue);
+  color: var(--sky-blue);
 }
 
 nav .nav-links li:nth-child(3) a {
-    color: #05D4DF;
+  color: #05d4df;
 }
 
 nav .nav-links li:nth-child(4) a {
-    color: #5D58EF;
+  color: #5d58ef;
 }
-nav > .hamburger-menu {
-    display: none;
+
+nav .hamburger-menu {
+  display: none;
 }
+
 /* Header section styles end here */
+
+/* Banner section styles start from here */
+#banner .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-con .banner-title {
+  color: var(--black);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.banner-con .banner-title span:first-child {
+    color: var(--orange);
+}
+.banner-con .banner-title span:last-child {
+    color: var(--sky-blue);
+}
+.banner-con p {
+    margin: 24px 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--black);
+}
+.banner-con .btn-primary {
+    color: var(--white);
+    background: var(--black);
+}
+/* Banner section styles end here */
