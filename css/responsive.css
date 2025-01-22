@@ -80,6 +80,19 @@
     display: none;
   }
   /* Standard Curriculum part responsive end here */
+
+  /* Footer part responsive start from here */
+  footer {
+    padding: 60px 0;
+  }
+  footer .container {
+    flex-direction: column;
+    gap: 32px;
+  }
+  footer .footer-left p {
+    width: 100%;
+  }
+  /* Footer part responsive end here */
 }
 
 /* Mobile view part responsive end here */

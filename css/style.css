@@ -171,7 +171,6 @@ nav .hamburger-menu {
 }
 .curriculum-card-container .curriculum-card figure img {
   margin: 0 auto;
-  
 }
 .curriculum-card .curriculum-card-con .card-title {
   color: #202020;
@@ -231,3 +230,149 @@ nav .hamburger-menu {
   color: var(--white);
 }
 /* Standard Curriculum section styles end here */
+
+/* Our stories part styles start from here */
+#stories {
+  text-align: center;
+  background: linear-gradient(
+      0deg,
+      rgba(254, 163, 1, 0.3) 0%,
+      rgba(255, 255, 255, 0.3) 100%
+    ),
+    url(https://i.ibb.co.com/qJn18vk/bg.png);
+  padding: 60px 0;
+}
+#stories .container .section-title {
+  color: var(--black);
+  font-size: 2.875rem;
+  font-weight: 700;
+  line-height: 125%;
+}
+#stories .item-container {
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 20px;
+}
+
+.item {
+  grid-column: 1 / span 6;
+  grid-row: 1 / span 12;
+  border-radius: 16px;
+  background: var(--white);
+}
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+.item .item-con {
+  padding: 60px 36px;
+  position: relative;
+}
+.item .item-con .date {
+  padding: 15px 20px;
+  background: #3cd8e8;
+  border-radius: 40px;
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: -10%;
+}
+.date time {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 180%;
+}
+.item-con h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 160%;
+  margin-bottom: 40px;
+  color: #000;
+}
+.item-con p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 180%;
+  font-weight: 500;
+}
+.item-con h4 {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 180%;
+}
+.item:nth-child(2) {
+  grid-column: 7 / span 3;
+  grid-row: 1 / span 6;
+}
+.item:nth-child(2) .item-con {
+}
+.item-container .item:nth-child(3) {
+  grid-column: 10 / span 3;
+  grid-row: 1 / span 6;
+}
+.item-container .item:nth-child(4) {
+  grid-column: 7 / span 3;
+  grid-row: 7 / span 6;
+}
+.item-container .item:nth-child(5) {
+  grid-column: 10 / span 3;
+  grid-row: 7 / span 6;
+}
+/* Our stories part styles end here */
+
+/* Footer part styles start from here */
+footer {
+  background: #01acfd;
+  color: #fff;
+  padding: 120px 0;
+}
+footer a {
+  color: #fff;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-logo {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 34px;
+}
+footer .footer-logo span {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 39px;
+}
+footer .footer-left p {
+  font-size: 20px;
+  font-weight: 400;
+  width: 400px;
+}
+
+footer h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+footer .footer-links li {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.footer-links li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-right .social-links {
+  display: flex;
+  gap: 12px;
+}
+/* Footer part styles end here */
