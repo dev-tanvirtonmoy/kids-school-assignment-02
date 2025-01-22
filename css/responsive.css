@@ -76,10 +76,61 @@
     font-size: 0.625rem;
     margin-top: 22px;
   }
-  #curriculum .container .scroll-buttons{
+  #curriculum .container .scroll-buttons {
     display: none;
   }
   /* Standard Curriculum part responsive end here */
+
+  /* Our Stories section responsive start from here */
+  main #stories {
+    padding: 40px 0;
+  }
+  main #stories .container .section-title {
+    font-size: 1.625rem;
+  }
+  main #stories .item-1 {
+    display: none;
+  }
+ 
+  main #stories .item-container {
+    margin: 20px 0;
+    gap: 12px;
+  }
+  main #stories .item-container .item {
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 6;
+  }
+  main #stories .item-container .item:nth-child(3) {
+    grid-column: 7 / span 6;
+    grid-row: 1 /span 6;
+  }
+  main #stories .item-container .item:nth-child(4) {
+    grid-column: 1 / span 6;
+    grid-row: 7 /span 6;
+  }
+  main #stories .item-container .item:nth-child(5) {
+    grid-row: 7 /span 6;
+    grid-column: 7 / span 6;
+  }
+  main #stories .item p {
+    padding: 6px 12px;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 500;
+    bottom: 137px;
+  }
+  main #stories .item .item-con {
+    padding: 18px 22px;
+  }
+  main #stories .container button {
+    display: block;
+    margin: 0 auto;
+    padding: 6px 24px;
+    font-size: 1rem;
+    line-height: 180%;
+    border-radius: 8px;
+  }
+  /* Our Stories section responsive end here */
 
   /* Footer part responsive start from here */
   footer {
