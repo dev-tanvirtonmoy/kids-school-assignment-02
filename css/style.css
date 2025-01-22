@@ -55,10 +55,28 @@ a:hover {
   text-transform: capitalize;
   cursor: pointer;
   border: none;
+  transition: all linear 0.3s;
+
+  &:hover {
+    scale: 1.1;
+    background: var(--white);
+    color: var(--black);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+  }
 }
 
 /* Shared styles end here */
 
+header .marque{
+  padding: 10px 0;
+  background: rgb(95, 62, 67);
+}
+header .marque marquee{
+  color: var(--white);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
 /* Header section styles start from here */
 nav .container {
   display: flex;
@@ -137,6 +155,7 @@ nav .hamburger-menu {
 .banner-con .btn-primary {
   color: var(--white);
   background: var(--black);
+
 }
 /* Banner section styles end here */
 
@@ -168,6 +187,10 @@ nav .hamburger-menu {
     #fff;
   box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
   flex: 1;
+  transition: all linear 0.3s;
+  &:hover{
+    scale: 1.1;
+  }
 }
 .curriculum-card-container .curriculum-card figure img {
   margin: 0 auto;
@@ -223,6 +246,10 @@ nav .hamburger-menu {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all linear 0.3s;
+  &:hover{
+    background: var(--sky-blue);
+  }
 }
 #curriculum .container .scroll-buttons div a i {
   display: block;
@@ -253,6 +280,7 @@ nav .hamburger-menu {
   height: auto;
   display: block;
   border-radius: 16px 16px 0 0;
+ 
 }
 .item-container {
   text-align: start;
